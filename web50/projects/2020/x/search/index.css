@@ -31,15 +31,15 @@
     border: 1px solid black;
     background-color: gray;
   }
-  button {
+  #adv-button, button {
     background-color: white;
     font-weight: bolder;
+  }
+  button {
     position: fixed;
     left: 80%;
   }
   #adv-button {
-    background-color: white;
-    font-weight: bolder;
     left: 85%;
   }
   button:hover, #adv-button :hover {
@@ -62,13 +62,9 @@
     right: 28%;
     font-size: 600%;
   }
-  html {
+  #centro, html {
     height: 100%;
     width: 100%;
-  }
-  #centro {
-    width: 100%;
-    height: 100%;
   }
 }
 @media (max-width: 700px) {
@@ -102,18 +98,17 @@
     border: 1px solid black;
     background-color: gray;
   }
-  button {
+  #adv-button, button {
     background-color: white;
     font-weight: bolder;
     position: absolute;
+  }
+  button {
     left: 80%;
     -webkit-text-decoration: gray;
             text-decoration: gray;
   }
   #adv-button {
-    background-color: white;
-    font-weight: bolder;
-    position: absolute;
     left: 90%;
   }
   button:hover, #adv-button :hover {

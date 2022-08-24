@@ -82,31 +82,32 @@ button {
     left: 5%;
     top: 18%;
 }
+%left {
+    position: fixed;
+    left: 4%;
+}
 #line1 {
-            position: fixed;
+            @extend %left;
             top: 32%;
-            left : 4%;
+            
  }
 #line2 {
-            position: fixed;
+            @extend %left;
             top: 40%;
-            left : 4%;
         }
 #line3{
-            position: fixed;
+            @extend %left;
             top: 48%;
-            left : 4%;
+            
         }
         #line4 {
-            position: fixed;
+            @extend %left;
             top: 56%;
-            left : 4%;
         }
         #line5 
             {
-                position: fixed;
+                @extend %left;
                 top: 64%;
-                left : 4%;
             }
 }
 @media (min-width: 750px) {
@@ -130,11 +131,14 @@ button {
         position: fixed;
         left: 10%;
     }
+    %message2 {
+        position: fixed;
+        left: 30%;
+        border-color: grey;
+    }
     #align2 {
-            position: fixed;
-            left: 30%;
+            @extend %message2;
             top: 38%;
-            border-color: grey;
             width: 250px;
         }
         .margin {
@@ -144,60 +148,53 @@ button {
         #google {
             margin: 20px;
         }
-        #line1 {
+        %left2 {
             position: fixed;
+            left: 10%;
+        }
+        #line1 {
+            @extend %left2;
             top: 27%;
-            left : 10%;
         }
         #line2 {
-            position: fixed;
+            @extend %left2;
             top: 38%;
-            left : 10%;
         }
         #line3{
-            position: fixed;
+            @extend %left2;
             top: 50%;
-            left : 10%;
         }
         #line4 {
-            position: fixed;
+            @extend %left2;
             top: 61%;
-            left : 10%;
         }
         #line5 
             {
-                position: fixed;
+                @extend %left2;
                 top: 72%;
-                left : 10%;
             }
         
         #align1 {
-            position: fixed;
-            left: 30%;
+            @extend %message2;
             top: 27%;
             width: 250px;
-            border-color: grey;
         }
         #align3 {
-            position: fixed;
-            left: 30%;
+            @extend %message2;
             top: 50%;
             width: 250px;
-            border-color: grey;
+            
         }
         #align4 {
-            position: fixed;
-            left: 30%;
+            @extend %message2;
             top: 61%;
             width: 250px;
-            border-color: grey;
         }
         #align5{
-            position: fixed;
-            left: 30%;
+            @extend %message2;
             top: 72%;
             width: 250px;
-            border-color: grey;
+            
         }
         #align6{
             position: fixed;

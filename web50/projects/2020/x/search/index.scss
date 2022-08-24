@@ -35,15 +35,17 @@ body {
     border: 1px solid black;
     background-color: gray;
 }
-button {
+%button2 {
     background-color: white;
     font-weight: bolder;
+}
+button {
+    @extend %button2;
     position: fixed;
     left: 80%;
 }
 #adv-button {
-    background-color: white;
-    font-weight: bolder;
+    @extend %button2;
     left: 85%;
 }
 button:hover, #adv-button :hover{
@@ -66,13 +68,15 @@ button:hover, #adv-button :hover{
     right: 28%;
     font-size: 600%;
 }
- html {
+%htmlcentro{
     height: 100%;
     width: 100%;
+}
+ html {
+    @extend %htmlcentro;
  }
  #centro {
-    width: 100%;
-    height: 100%;
+    @extend %htmlcentro
  }
 }
 @media (max-width :700px){
@@ -110,17 +114,18 @@ button:hover, #adv-button :hover{
     border: 1px solid black;
     background-color: gray;
 }
-button {
+%buttons {
     background-color: white;
     font-weight: bolder;
     position: absolute;
+}
+button {
+    @extend %buttons;
     left: 80%;
     text-decoration: gray;
 }
 #adv-button {
-    background-color: white;
-    font-weight: bolder;
-    position: absolute;
+    @extend %buttons;
     left: 90%;
 }
 button:hover, #adv-button :hover{
