@@ -1,49 +1,33 @@
 @media (max-width: 749px) {
-  #align2 {
+  #align5, #align4, #align3, #align1, #align2 {
     position: fixed;
     left: 30%;
-    top: 40%;
     border-color: grey;
+  }
+  #align2 {
+    top: 40%;
     width: 250px;
   }
-
   #google {
     color: red;
     font-size: 25px;
   }
-
   #align1 {
-    position: fixed;
-    left: 30%;
     top: 32%;
     width: 250px;
-    border-color: grey;
   }
-
   #align3 {
-    position: fixed;
-    left: 30%;
     top: 48%;
     width: 250px;
-    border-color: grey;
   }
-
   #align4 {
-    position: fixed;
-    left: 30%;
     top: 56%;
     width: 250px;
-    border-color: grey;
   }
-
   #align5 {
-    position: fixed;
-    left: 30%;
     top: 64%;
     width: 250px;
-    border-color: grey;
   }
-
   #align6 {
     position: fixed;
     left: 75%;
@@ -51,18 +35,15 @@
     width: 250px;
     border-color: grey;
   }
-
   #body {
     position: fixed;
     max-width: 700px;
   }
-
   #to {
     top: 64%;
     position: fixed;
     left: 68%;
   }
-
   #seach {
     background-color: #4d90fe;
     border: none;
@@ -76,51 +57,42 @@
     top: 72%;
     left: 75%;
   }
-
   #seach:hover {
     border: solid black;
   }
-
   #images {
     position: fixed;
     left: 85%;
   }
-
   button {
     position: fixed;
     left: 75%;
   }
-
   #find {
     position: fixed;
     left: 5%;
     top: 18%;
   }
-
   #line1 {
     position: fixed;
     top: 32%;
     left: 4%;
   }
-
   #line2 {
     position: fixed;
     top: 40%;
     left: 4%;
   }
-
   #line3 {
     position: fixed;
     top: 48%;
     left: 4%;
   }
-
   #line4 {
     position: fixed;
     top: 56%;
     left: 4%;
   }
-
   #line5 {
     position: fixed;
     top: 64%;
@@ -132,22 +104,18 @@
     color: red;
     font-size: 40px;
   }
-
   #images {
     position: fixed;
     left: 81%;
   }
-
   button {
     position: fixed;
     left: 75%;
   }
-
   #find {
     position: fixed;
     left: 10%;
   }
-
   #align2 {
     position: fixed;
     left: 30%;
@@ -155,46 +123,38 @@
     border-color: grey;
     width: 250px;
   }
-
   .margin {
     margin: 70px;
     top: 35%;
   }
-
   #google {
     margin: 20px;
   }
-
   #line1 {
     position: fixed;
     top: 27%;
     left: 10%;
   }
-
   #line2 {
     position: fixed;
     top: 38%;
     left: 10%;
   }
-
   #line3 {
     position: fixed;
     top: 50%;
     left: 10%;
   }
-
   #line4 {
     position: fixed;
     top: 61%;
     left: 10%;
   }
-
   #line5 {
     position: fixed;
     top: 72%;
     left: 10%;
   }
-
   #align1 {
     position: fixed;
     left: 30%;
@@ -202,7 +162,6 @@
     width: 250px;
     border-color: grey;
   }
-
   #align3 {
     position: fixed;
     left: 30%;
@@ -210,7 +169,6 @@
     width: 250px;
     border-color: grey;
   }
-
   #align4 {
     position: fixed;
     left: 30%;
@@ -218,7 +176,6 @@
     width: 250px;
     border-color: grey;
   }
-
   #align5 {
     position: fixed;
     left: 30%;
@@ -226,7 +183,6 @@
     width: 250px;
     border-color: grey;
   }
-
   #align6 {
     position: fixed;
     left: 70%;
@@ -234,13 +190,11 @@
     width: 250px;
     border-color: grey;
   }
-
   #to {
     top: 72%;
     position: fixed;
     left: 63%;
   }
-
   #seach {
     background-color: #4d90fe;
     border: none;
@@ -254,7 +208,6 @@
     left: 75%;
     top: 80%;
   }
-
   #seach:hover {
     border: solid black;
   }
